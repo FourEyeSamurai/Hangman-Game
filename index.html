@@ -1,32 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
- 
+	
+<meta charset="utf-8">
+
+<link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
- <title></title>
+
+<title>JS Hangman Game</title>
 </head>
 
-
 <body>
-    <div class='container'>
-      <div class='row'>
-        <div class='col-md-12 panel' id='gameplay-title'>Title</div>
-      </div>
-      <div class='row'>
-        <div class='col-md-6 col-md-offset-3 panel' id='gameplay-scoreboard'>Scoreboard</div>
-      </div>
-      <div class='row'>
-        <div class='col-md-3 panel' id='gameplay-away-team'>Away Team</div>
-        <div class='col-md-6 panel' id='gameplay-baseball-field'>Baseball Field</div>
-        <div class='col-md-3 panel' id='gameplay-home-team'>Home Team</div>
-      </div>
-      <div class='row'>
-        <div class='col-md-6 col-md-offset-3 panel' id='gameplay-at-bat'>At Bat</div>
-      </div>
-      <div class='row'>
-        <div class='col-md-6 col-md-offset-3 panel' id='gameplay-game-report'>Game Report</div>
-      </div>
-    </div>
-  </body>
-  </html>
+	
+	<h1>STAR WARS Hangman</h1>
+
+	<p>Guesses: <span id = "guesses-left"></span> </p>
+	<p>Wrong Guesses: <span id = "wrong-guesses"></span></p>
+	<p>Wins: <span id="win-counter"></span></p>
+	<p>Losses: <span id="loss-counter"></span></p>
+	<h3 id = "word-blank"></h3>
+
+
+
+</body>
+</html>
