@@ -1,0 +1,27 @@
+body{
+	background-image: url("DS2.png");
+}
+
+.logo{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 300px;
+	width: 300px;
+}
+
+.episode{
+	color: #ffe81f;
+	background-color: black;
+	margin-right: 300px;
+	margin-left: 300px;
+	padding-bottom: 10px;
+}
+
+p{
+	color: white;
+}
+
+#word{
+	color: white;
+}
